@@ -15,6 +15,7 @@ struct
 main()
 {
 	int i,n;
+	float numero[5];
 	char arreglo[20];
 	float prom,suma;
 	char opc,resp;
@@ -30,14 +31,14 @@ main()
 				for(i=1;i<=5;i++)
 				{
 					printf("Introduce el numero  [%i]",i);
-					scanf("%f",&arreglo[i]);
-					suma+=arreglo[i];
+					scanf("%f",&numero[i]);
+					suma+=numero[i];
 				}
 
 				printf("\n");
 
 				for(i=1;i<=5;i++)
-					printf(" %.f ",arreglo[i]);
+					printf(" %.f ",numero[i]);
 	
 					printf("\n\n");	
 					printf (" la suma es = %.2f",suma);
